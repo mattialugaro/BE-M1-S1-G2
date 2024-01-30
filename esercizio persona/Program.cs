@@ -32,7 +32,7 @@ namespace esercizio_persona
             Console.WriteLine(pers2.getEta());
             Console.WriteLine(pers2.getDettagli());
             Console.WriteLine("pers2 si chiama: " + pers2.Nome + " " + pers2.Cognome + " e ha " + pers2.Eta + " anni. \n");
-            Console.ReadLine();
+            // Console.ReadLine();
 
             Console.WriteLine("Scrivi il tuo nome...");
             string nome = Console.ReadLine();
