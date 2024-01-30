@@ -11,6 +11,9 @@ namespace esercizio_persona
         private string _nome;
         private string _cognome;
         private int _eta;
+        // private string _indirizzo;
+
+        // public string Indirizzo { get; set; }
 
         public string Nome
         {
@@ -50,11 +53,12 @@ namespace esercizio_persona
 
         public Persona() { }
 
-        public Persona(string nome, string cognome, int eta)
+        public Persona(string nome, string cognome, int eta)// , string indirizzo)
         {
             _nome = nome;
             _cognome = cognome;
             _eta = eta;
+            // _indirizzo = indirizzo;
         }
 
         public string getNome()
